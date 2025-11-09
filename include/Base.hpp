@@ -5,6 +5,6 @@ namespace HW{
     namespace Creator{
         class Base{
             
-        }
+        };
     }
 }
