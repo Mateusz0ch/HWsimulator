@@ -7,4 +7,5 @@
 
 int main(){
     component::memory::Memory<uint64_t>memory{8};
+    std::cout<<"Allocated memory: " << memory.getSize()<<std::endl;
 };
