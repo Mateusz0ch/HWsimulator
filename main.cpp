@@ -6,6 +6,10 @@
 #include "Memory.hpp"
 
 int main(){
-    component::memory::Memory<uint64_t>memory{8};
-    std::cout<<"Allocated memory: " << memory.getSize()<<std::endl;
+    using component::memory::MemoryType;
+
+    MemoryType m = MemoryType::RAM;
+
+    component::memory::Memory<uint64_t> memory{m,8};
+
 };
